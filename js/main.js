@@ -11,3 +11,13 @@ $('.section').on('click', function() {
         $(this).children('.head').removeClass('head').addClass('head2');
     }
 });
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        dots: true,
+        autoplay: true
+    });
+});
